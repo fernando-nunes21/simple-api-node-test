@@ -30,23 +30,23 @@ const page5 = {
 }
 
 router.get("/page1", async function (req, res) {
-  res.status(response.status || 200).json(page1);
+  res.json(page1);
 });
 
 router.get("/page2", async function (req, res) {
-  res.status(response.status || 200).json(page2);
+  res.json(page2);
 });
 
 router.get("/page3", async function (req, res) {
-  res.status(response.status || 200).json(page3);
+  res.json(page3);
 });
 
 router.get("/page4", async function (req, res) {
-  res.status(response.status || 200).json(page4);
+  res.json(page4);
 });
 
 router.get("/page5", async function (req, res) {
-  res.status(response.status || 200).json(page5);
+  res.json(page5);
 });
 
 module.exports = router;
